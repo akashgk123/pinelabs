@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text utility</title>
+    <link rel="stylesheet" href="textUtility.css">
+    <script src="textUtility.js"></script>
+</head>
+<body class="body">
+    <div class="main-container">
+        <div class="child-container1">
+            <h2>Enter the text below:</h2>
+            <textarea name="text" id="text" cols="100" rows="10" placeholder="Enter the text here..."></textarea>
+        </div>
+        </br>
+        <div class="child-container2">
+            <button id="countButton" onclick="document.getElementById('outputPara1').innerHTML='The no of words present is: ' + WordCount(document.getElementById('text').value)">count of words</button>
+        </div>
+        <div class="child-container3">
+            <p id="outputPara1"></p>
+        </div>
+        <div class="child-container4">
+            <p id="outputPara2"></p>
+        </div>
+    </div>
+</body>
+</html>

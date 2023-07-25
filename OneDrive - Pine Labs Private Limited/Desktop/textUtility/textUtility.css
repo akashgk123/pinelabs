@@ -1,0 +1,18 @@
+.body{
+    background-color: rgba(122, 98, 98, 0.521);
+    display: flex;
+}
+/* .main-container{
+ 
+} */
+#countButton{
+    background-color: rgb(208, 3, 3);
+    color: rgb(246, 248, 249);
+    border-radius: 3px;
+    border-color: black;
+}
+
+#countButton:hover{
+    background-color: rgb(247, 85, 85);
+    cursor: pointer;
+}

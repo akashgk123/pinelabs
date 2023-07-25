@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>forms</title>
+    <style>
+        
+            input[type="submit"]{
+                background-color:  rgb(112, 183, 136);
+
+            } 
+            input[type="reset"]{
+                background-color:  rgb(219, 111, 86);
+
+            } 
+            form{
+                margin: 0;
+                padding-left: 40%;
+                padding-top: 1%;
+                padding-bottom: 2%;
+                border: 2px solid black;
+            }
+            
+    </style>
+</head>
+
+<body>
+    <p>Reg Form</p>
+        <form>
+            <label for="fname"> First Name:</label><br>
+            <input type="text" id="fname" name="fname" /><br>
+            <label for="lname"> Last Name:</label><br>
+            <input type="text" id="lname" name="lname" /><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" /><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" /><br>
+            <p>Gender:</p>
+              <input type="radio" id="Male" name="gender" value="Male">
+              <label for="male">Male</label>
+              <input type="radio" id="Female" name="gender" value="Female">
+              <label for="Female">Female</label>
+              <input type="radio" id="Other" name="gender" value="Other">
+              <label for="Other">Other</label>
+             
+            
+            <p>Expert in</p>
+            <input type="checkbox" id="C" name="C" value="C">
+            <label for="lang1"> C</label><br>
+            <input type="checkbox" id="C++" name="C++" value="C++">
+            <label for="lang2"> C++</label><br>
+            <input type="checkbox" id="Java" name="Java" value="Java">
+            <label for="lang3"> Java</label><br><br>
+            <label for="color">Favorite color:</label><br>
+            <input type="color" name="color" id="color" value="#ff0000" />
+            <br><br>
+
+
+
+            <label for="bdate">Date of birth:</label><br>
+            <input type="date" id="bday" name="bday" /><br><br>
+            <label for="ESalary">Expected Salary:</label><br>
+            <input type="text" id="Esalary" name="Esalary"><br><br>
+            <label for="file">Upload resume:</label>
+            <input type="file" id="file" name="file" /><br><br>
+
+            <input type="submit" value="submit" />
+            <input type="reset"  value="Clear"/>
+
+        </form>
+    
+</body>
+
+</html>

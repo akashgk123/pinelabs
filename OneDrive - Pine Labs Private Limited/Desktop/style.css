@@ -1,0 +1,49 @@
+.class1{
+    background-color: red;
+}
+.colors{
+    font-size: large;
+    background-color: aqua;
+    background-image: C:\Users\akash.kulthe\OneDrive - Pine Labs Private Limited\Pictures\Screenshots\Screenshot (17).png;
+    
+}
+
+#facebook{
+    background-color: rgb(216, 197, 197);
+    color: azure;
+    border-style: solid;
+    border-color: brown;
+    border-radius:3px;
+}
+
+#facebook:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+    
+}
+.but{
+    background-color: rgb(216, 197, 197);
+    color: azure;
+    border-style: solid;
+    border-color: brown;
+    border-radius:3px;
+}
+.but:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+    
+} 
+input {
+    margin: 10px 0;
+    padding: 10px;
+}
+input [type ="email"]
+{
+    background-color: rgb(0, 179, 255);
+    border: 25px;
+}
+input:focus {
+    background-color: blueviolet;
+}
